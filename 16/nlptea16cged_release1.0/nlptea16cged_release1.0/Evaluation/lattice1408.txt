@@ -1,0 +1,29 @@
+NLP-TEA 2016 Shared Task
+Chinese Grammatical Error Diagnosis
+
+System Results: predict(1).txt
+Gold Standard: gold(1).txt
+
+==========================================================
+Overall Performance
+==========================================================
+
+False Positive Rate = NaN (0/0)
+
+Detection Level
+	Accuracy = 0.6791 (273/402)
+	Precision = 1 (273/273)
+	Recall = 0.6791 (273/402)
+	F1-Score = 0.8089 ((2*1*0.6791)/(1+0.6791))
+
+Identification Level
+	Accuracy = 0.5172 (271/524)
+	Precision = 0.6861 (271/395)
+	Recall = 0.3883 (271/698)
+	F1-Score = 0.4959 ((2*0.6861*0.3883)/(0.6861+0.3883))
+
+Position Level
+	Accuracy = 0.1901 (123/647)
+	Precision = 0.2375 (123/518)
+	Recall = 0.1207 (123/1019)
+	F1-Score = 0.1601 ((2*0.2375*0.1207)/(0.2375+0.1207))
